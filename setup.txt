@@ -1,0 +1,30 @@
+main
+	section - featured slider
+	section - discount & offers
+	section - bkfst, lun, dine
+	
+footer
+	section - mailing
+	section - bottom
+
+divs are block level
+spans are inline
+
+section -
+	- h1
+	- h2
+	- div(flex, flow column)
+		- div(flex)
+			div(image, text)
+			div (price, product)
+
+section -
+	div header (flex, column)
+	div content (grid, 1fr, 1fr 1fr)
+		div inner-grid (.container {
+  /* ... */
+  justify-content: space-evenly;
+  justify-items: center;
+  align-content: space-evenly;
+  align-items: center;
+}
